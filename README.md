@@ -27,7 +27,7 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 - [ ]  Explain benefit(s) using `client-side routing`?
 
-> Answer:
+> Answer: Client-side routing tells the browser something has been clicked on the webpage and then figures out that the URL is not an external link so the browser does not make a GET request.
 
 ## Project Set Up
 
