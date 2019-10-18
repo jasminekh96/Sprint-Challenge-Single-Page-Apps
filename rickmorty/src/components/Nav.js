@@ -1,18 +1,20 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import styled from 'styled-components';
 
 const Nav = () => {
+	const cardTitle = styled.h1`color: green;`;
 	return (
-		<div>
+		<cardTitle>
 			<div>
 				<div>
 					<Link to='/'>Home Page</Link>
 				</div>
 				<div>
-					<Link to='/characters'>Characters</Link>
+					<Link to='/characters'>Pokemon!</Link>
 				</div>
 			</div>
-		</div>
+		</cardTitle>
 	);
 };
 
