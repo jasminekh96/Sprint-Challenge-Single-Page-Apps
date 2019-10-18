@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 
 const Nav = () => {
-	const cardTitle = styled.h1`color: green;`;
 	return (
 		<cardTitle>
 			<div>

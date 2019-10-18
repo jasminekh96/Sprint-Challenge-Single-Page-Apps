@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 
 const RickyCharacter = (props) => {
-	const Containter = styled.div`
+	const Container = styled.div`
 		background-color: cyan;
 		width: 880px;
 		margin-left: 415px;
@@ -26,13 +26,13 @@ const RickyCharacter = (props) => {
 	const Image = styled.img`border-radius: 600px;`;
 
 	return (
-		<Containter>
+		<Container>
 			<Name>Name : {props.name}</Name>
 			<Status>Nation Pokedex Number: {props.status}</Status>
 			<Species>Number: {props.species}</Species>
 			<h1>Rarity: {props.rarity}</h1>
 			<Image src={props.url} />
-		</Containter>
+		</Container>
 	);
 };
 export default RickyCharacter;
